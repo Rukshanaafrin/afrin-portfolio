@@ -44,7 +44,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 
-    bg-white dark:bg-[#0b0f19]/80 
+    bg-purple-200 dark:bg-[#0b0f19]/80 
     backdrop-blur-md 
     border-b border-gray-300 dark:border-gray-700">
 

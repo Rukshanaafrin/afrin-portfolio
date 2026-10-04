@@ -25,8 +25,7 @@ export default function Hero() {
     <section
       id="home"
       className="min-h-screen flex items-center justify-center pt-20 pb-10
-      bg-gradient-to-br from-purple-300 to-blue-200
-      dark:from-[#0f0b1a] dark:via-[#0b1220] dark:to-[#1a0d19]"
+"
     >
       {/* BACKGROUND GLOW */}
       <div className="absolute w-[500px] h-[500px] bg-purple-600 blur-[150px] opacity-30 top-[-100px] left-[-100px]"></div>
