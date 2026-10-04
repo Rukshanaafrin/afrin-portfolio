@@ -5,7 +5,7 @@ import { FiSend } from "react-icons/fi";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-transparent">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-transparent">
 
       {/* BACKGROUND GLOW */}
       <div className="absolute w-[500px] h-[500px] bg-purple-600 blur-[150px] opacity-30 top-[-100px] left-[-100px]"></div>

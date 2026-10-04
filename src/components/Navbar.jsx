@@ -32,11 +32,10 @@ export default function Navbar() {
         href={`#${id}`}
         onClick={() => setActive(id)}
         className={`flex items-center gap-1 cursor-pointer
-        ${
-          active === id
+        ${active === id
             ? "text-purple-500 border-b-2 border-purple-500 pb-1"
             : "hover:text-purple-500"
-        }`}
+          }`}
       >
         {icon} {text}
       </a>
@@ -51,11 +50,11 @@ export default function Navbar() {
 
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
 
-        <h1 className="text-xl font-bold text-black dark:text-white">
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 bg-clip-text text-transparent">
           Afrin
         </h1>
 
-        <ul className="flex items-center gap-6 text-gray-700 dark:text-gray-300">
+        <ul className="flex items-center gap-6 text-base text-gray-700 dark:text-gray-300">
 
           {navItem("home", <FaHome />, "Home")}
           {navItem("about", <FaUser />, "About")}
@@ -101,7 +100,7 @@ export default function Navbar() {
 
         <button
           onClick={toggleTheme}
-          className="text-black dark:text-white text-xl"
+          className="text-black dark:text-white text-2xl"
         >
           {dark ? <MdLightMode /> : <MdDarkMode />}
         </button>
